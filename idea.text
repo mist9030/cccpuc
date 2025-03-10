@@ -1,0 +1,23 @@
+- Create the clubs table
+CREATE TABLE `clubs` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `club_name` varchar(100) NOT NULL,
+  `description` text,
+  `founded_date` date DEFAULT NULL,
+  `logo` varchar(255) DEFAULT NULL,
+  `president_name` varchar(100) DEFAULT NULL,
+  `president_email` varchar(100) DEFAULT NULL,
+  `president_phone` varchar(20) DEFAULT NULL,
+  `faculty_advisor` varchar(100) DEFAULT NULL,
+  `website` varchar(255) DEFAULT NULL,
+  `social_media` varchar(255) DEFAULT NULL,
+  `meeting_location` varchar(100) DEFAULT NULL,
+  `meeting_day` varchar(50) DEFAULT NULL,
+  `meeting_time` time DEFAULT NULL,
+  `total_members` int(11) DEFAULT 0,
+  `status` enum('active','inactive') DEFAULT 'active',
+  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `updated_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  PRIMARY KEY (`id`),
+  UNIQUE KEY `club_name` (`club_name`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
