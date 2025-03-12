@@ -102,14 +102,14 @@ $upcoming_events = [
 $success_stories = [
     [
         'name' => 'Imran Hossain',
-        'image' => 'images/testimonials/imran.jpg',
+        'image' => '../upload/avatar.png',
         'quote' => 'Being part of the Computer Club opened doors to internships and job opportunities. The skills I gained through hackathons and projects helped me secure a position at a leading tech company in Bangladesh.',
         'club' => 'Computer Club Alumni, 2023',
         'current' => 'Software Engineer at TechBD'
     ],
     [
         'name' => 'Sabrina Rahman',
-        'image' => 'images/testimonials/sabrina.jpg',
+        'image' => '../upload/avatar2.png',
         'quote' => 'My leadership experience as Cultural Club President taught me valuable organizational and management skills. The confidence I gained through cultural performances has been invaluable in my professional life.',
         'club' => 'Cultural Club President, 2022-2023',
         'current' => 'Communications Officer at NGO Forum'
@@ -680,6 +680,7 @@ h2:after {
 
     <section class="events-section">
         <h2>Upcoming Club Events</h2>
+
         <div class="events-list">
             <?php foreach($upcoming_events as $event): ?>
                 <div class="event-card">

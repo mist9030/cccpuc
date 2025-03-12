@@ -15,7 +15,7 @@
         
         <nav id="mainNav" class="fixed md:static top-0 -right-[300px] md:right-0 w-[300px] md:w-auto h-screen md:h-auto bg-black md:bg-transparent p-16 md:p-0 transition-all duration-300 ease-in-out z-40 md:z-auto shadow-lg md:shadow-none">
         <ul class="flex flex-col md:flex-row list-none gap-0 md:gap-4">
-    <li><a href="/PUC/index.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">Home</a></li>
+    <li><a href="/PUC/index2.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">Home</a></li>
     <li><a href="/PUC/navbar/about.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">What We Do</a></li>
     <li><a href="/PUC/navbar/event.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">What's On</a></li>
     <li><a href="/PUC/navbar/news.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">News</a></li>
@@ -24,9 +24,11 @@
     <li><a href="/PUC/navbar/proud.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0 border-b border-gray-700 md:border-0">Proud</a></li>
     <li><a href="/PUC/profile.php" class="text-white font-semibold hover:text-gray-300 text-lg md:text-base block py-3 md:py-0">Profile</a></li>
 
-    
+                <li>
+  <a href="/PUC/login.php" class="bg-blue-500 text-white font-medium py-2 px-6 rounded-md hover:bg-blue-600 transition-colors">Login</a>
+</li>
 <li>
-  <a href="/PUC/navbar/logout.php" class="bg-blue-500 text-white font-medium py-2 px-6 rounded-md hover:bg-blue-600 transition-colors">Logout</a>
+  <a href="/PUC/register.php" class="bg-blue-500 text-white font-medium py-2 px-6 rounded-md hover:bg-blue-600 transition-colors">Register</a>
 </li>
             </ul>
         </nav>

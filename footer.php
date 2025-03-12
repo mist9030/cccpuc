@@ -11,7 +11,7 @@
         <div class="footer-section quick-links">
             <h3>Quick Links</h3>
             <ul>
-                <li><a href="/PUC/homepage.php">Home</a></li>
+                <li><a href="/PUC/index.php">Home</a></li>
                 <li><a href="/PUC/navbar/news.php">News</a></li>
                 <li><a href="/PUC/navbar/event.php">Upcoming Events</a></li>
                 <li><a href="/PUC/navbar/proud.php">Proud</a></li>

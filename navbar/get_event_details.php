@@ -27,6 +27,7 @@ if (isset($_GET['id']) && is_numeric($_GET['id'])) {
     
     $stmt->close();
 } else {
+    
     // Invalid ID parameter
     header('HTTP/1.1 400 Bad Request');
     echo json_encode(['error' => 'Invalid event ID']);

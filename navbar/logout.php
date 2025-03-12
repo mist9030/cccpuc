@@ -1,6 +1,6 @@
 <?php
 session_start();
 session_destroy();
-header("Location: /PUC/homepage.php");
+header("Location: /PUC/index2.php");
 exit;
 ?>

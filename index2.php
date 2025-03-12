@@ -11,7 +11,7 @@
 <body class="font-sans text-gray-800 m-0 p-0 leading-normal">
     <header class="bg-black text-white w-full">
     
-        <?php include('navbar/navbar.php');?> 
+        <?php include('navbar/navbar2.php');?> 
     </header>
 
     <main class="max-w-6xl mx-auto p-8 mt-20">

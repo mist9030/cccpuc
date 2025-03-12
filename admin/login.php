@@ -33,9 +33,11 @@ if(isset($_POST['login']))
     <link rel="stylesheet" href="../CSS/login.css">
     <link rel="stylesheet" href="../CSS/index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/js/all.min.js"></script> -->
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <?php include '../header.php'; ?>
+    <?php include 'header.php'; ?>
 
     <main>
         <section class="login-container">
@@ -48,7 +50,7 @@ if(isset($_POST['login']))
 
                 <button type="submit" name="login" class="btn">Login</button>
             </form>
-            <p>Don't have an account? <a href="register.php" class="btn-link">Register</a></p>
+        
         </section>
     </main>
 
